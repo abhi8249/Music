@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Playfair+Display&family=Righteous&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,500;1,400&family=Varela+Round&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div class="actionbar" id="act">
+        <span class="l"><a href="">Hindi</a></span>
+        <span class="xbtn"><p type="text" id="xb" class="xbb">X</p></span>
+    </div>
+    <div class="nav" id="nav">
+     <div class="logo">
+        <img src="./image/download.png" alt=""> 
+        <span class="s"><h1>Spotify</h1></span>
+      </div>
+     <div class="menu"> 
+        <ul>
+           
+           <li><a href="Premium.html">Premium</a></li>
+           <li><a href="Support.html">Support</a></li>
+           <li><a href="Download.html">Download</a></li>
+           
+           <li><a href="signup.html">SignUp</a></li>
+           <li id="login">LogIn</li>
+      <li>  <div id="clock"></div></li>
+
+        </ul>
+    </div>
+
+    </div>
+    <div class="Bar" onclick="myFunction(this)" id="bar">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <main>
+        <div class="container">
+            <div class="container1" id="form">            
+                <div class="loginform">
+                    <span class="ltext"><h3>Login Form</h3></span> <span class="lxbtn" id="lxbtn">X</span>
+                  <form action="Spotify.jsp" method="post">
+                    <label for="name" style="font-family: 'Roboto Slab', serif;"> Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name.." required>
+                <br>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter password..." required>
+                  
+                    <button type="submit" id="loginbtn">LogIn</button>
+                  </form>
+                </div>
+            </div>
+      </main>
+</body>
+<script src="Music.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+</html>
